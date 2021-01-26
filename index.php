@@ -15,11 +15,23 @@
                     </div>
                     <div class="col d-flex flex-row-reverse align-items-center">
                         <div class="nav-itens">
-                            <a href="#">Início</a>
-                            <a href="#">Serviços</a>
-                            <a href="#">Viaturas</a>
-                            <a href="#">Contactos</a>
-                            <a href="#">Blog</a>
+                            <ul>
+                                <li>
+                                    <a href="/" class="active">Início</a>
+                                </li>
+                                <li>
+                                    <a href="/services.php">Serviços</a>
+                                </li>
+                                <li>
+                                    <a href="#">Viaturas</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contactos</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
