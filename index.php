@@ -73,21 +73,21 @@
                             <div class="circle d-flex justify-content-around align-items-center">
                                 <i class="fas fa-cogs text-white"></i>
                             </div>
-                            <p class="text-center mt-4">Maxime nemo delectus</p>
+                            <p class="text-center mt-4">Serviço de manutenção</p>
+                            <p class="text-center mt-3">Autem at nisi fuga harum. Perspiciatis quaerat amet perferendis ullam eveniet est.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="circle d-flex justify-content-around align-items-center">
+                                <i class="fas fa-tools text-white"></i>
+                            </div>
+                            <p class="text-center mt-4">Reparação mecânica</p>
                             <p class="text-center mt-3">Autem at nisi fuga harum. Perspiciatis quaerat amet perferendis ullam eveniet est.</p>
                         </div>
                         <div class="col-md-3">
                             <div class="circle d-flex justify-content-around align-items-center">
                                 <i class="fas fa-car text-white"></i>
                             </div>
-                            <p class="text-center mt-4">Quis dolorem voluptatibus</p>
-                            <p class="text-center mt-3">Autem at nisi fuga harum. Perspiciatis quaerat amet perferendis ullam eveniet est.</p>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="circle d-flex justify-content-around align-items-center">
-                                <i class="far fa-calendar-alt text-white"></i>
-                            </div>
-                            <p class="text-center mt-4">Autem at nisi</p>
+                            <p class="text-center mt-4">Serviço de carroçaria</p>
                             <p class="text-center mt-3">Autem at nisi fuga harum. Perspiciatis quaerat amet perferendis ullam eveniet est.</p>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                     <div class="h-100 container">
                         <div class="row">
                             <div class="col-md-6">
-                                MAPA
+
                             </div>
                             <div class="col-md-6">
                                 <h4 class="font-weight-bold ml-3">Quer saber como pode chegar até a Meiricarro?</h4>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
 
-                <!-- Info Empresa -->
+                <!-- Noticias Empresa -->
                 <div class="h-100 container" id="info-noticias">
                     <h4 class="text-center font-weight-bold">Descubra todas as novidades que a Citroën têm para si!</h4>
                     <div class="d-flex justify-content-center mt-3">
@@ -159,6 +159,6 @@
     <?php
         require "partials/footer.php";
     ?>
-    <script src="/resources/js/master.js"></script>
+    <script src="/resources/js/index.js"></script>
     </body>
 </html>

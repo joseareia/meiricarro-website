@@ -62,7 +62,62 @@
 
         <div id="container">
             <div id="main">
-                CONTENT
+                <!-- Serviço 1 -->
+                <div id="info-service1">
+                    <div class="h-100 container">
+                        <div class="row">
+                            <div class="col-md-6 d-flex align-items-center">
+                                <div class="service-image-bg" id="image1-bg"></div>
+                                <div class="service-image" id="image1"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="font-weight-bold ml-3">Têm problemas com a sua viatura?<br>A Meiricarro resolve.</h4>
+                                <div class="mt-4 ml-3" id="info-service1-paragraph">
+                                    <p>Iusto aut cupiditate harum iusto incidunt aut qui blanditiis. Quis dignissimos similique dicta quae laboriosam.</p>
+                                    <p>Qui iure qui veritatis vitae incidunt. Tenetur ut reiciendis et error dolore voluptate perferendis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Serviço 1 -->
+                <div id="info-service2">
+                    <div class="h-100 container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="font-weight-bold ml-3">Quer saber como pode chegar até a Meiricarro?</h4>
+                                <div class="mt-4 ml-3" id="info-service2-paragraph">
+                                    <p>Iusto aut cupiditate harum iusto incidunt aut qui blanditiis. Quis dignissimos similique dicta quae laboriosam.</p>
+                                    <p>Qui iure qui veritatis vitae incidunt. Tenetur ut reiciendis et error dolore voluptate perferendis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <div class="service-image-bg" id="image2-bg"></div>
+                                <div class="service-image" id="image2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Serviço 1 -->
+                <div id="info-service3">
+                    <div class="h-100 container">
+                        <div class="row">
+                            <div class="col-md-6 d-flex align-items-center">
+                                <div class="service-image-bg" id="image3-bg"></div>
+                                <div class="service-image" id="image3"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="font-weight-bold ml-3">Quer saber como pode chegar até a Meiricarro?</h4>
+                                <div class="mt-4 ml-3" id="info-service3-paragraph">
+                                    <p>Iusto aut cupiditate harum iusto incidunt aut qui blanditiis. Quis dignissimos similique dicta quae laboriosam.</p>
+                                    <p>Qui iure qui veritatis vitae incidunt. Tenetur ut reiciendis et error dolore voluptate perferendis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
