@@ -23,13 +23,13 @@
                                     <a href="/services.php">Serviços</a>
                                 </li>
                                 <li>
-                                    <a href="#">Viaturas</a>
+                                    <a href="/vehicles.php">Viaturas</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contactos</a>
+                                    <a href="/contacts.php">Contactos</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="/blog.php">Blog</a>
                                 </li>
                             </ul>
                         </div>
@@ -149,6 +149,9 @@
                                 </div>
                             </div>
                         </div>
+                        <a href="#" class="text-decoration-none">
+                            <button type="button" name="button" id="button-info-news" class="mt-4">Veja todas as novidades</button>
+                        </a>
                     </div>
                 </div>
             </div>

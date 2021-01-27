@@ -1,0 +1,32 @@
+.hero-image {
+    height: 80%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../media/bg-contacts.png");
+}
+
+#hero-title {
+    font-size: 2.5rem;
+    width: 110%;
+}
+
+#hero-paragraph {
+    line-height: 1.8;
+    font-family: Poppins;
+    font-size: .8rem;
+}
+
+#button-saber {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 14px 35px;
+    background-color: white;
+    border: none;
+    color: black;
+}

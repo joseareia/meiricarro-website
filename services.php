@@ -2,7 +2,7 @@
 <html lang="pt" dir="ltr">
     <?php
         $title = "Serviços";
-        $style = "/resources/css/index.css";
+        $style = "/resources/css/services.css";
         require "partials/header.php";
     ?>
     <body>
@@ -23,13 +23,13 @@
                                     <a href="/services.php" class="active">Serviços</a>
                                 </li>
                                 <li>
-                                    <a href="#">Viaturas</a>
+                                    <a href="/vehicles.php">Viaturas</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contactos</a>
+                                    <a href="/contacts.php">Contactos</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="/blog.php">Blog</a>
                                 </li>
                             </ul>
                         </div>
@@ -40,7 +40,24 @@
         <!-- End of navigation -->
 
         <!-- Begin of hero image -->
-        <div class="hero-image"></div>
+        <div class="hero-image">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-md-6 ml-5">
+                        <h1 class="text-white font-weight-bold" id="hero-title">Veja os serviços que a Meiricarro têm para oferecer.</h1>
+                        <p class="text-white pt-3 pb-3" id="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur.</p>
+                        <div class="button-div">
+                            <a href="#info-empresa" class="text-decoration-none">
+                                <button type="button" name="button" id="button-saber">Saber mais</button>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <button type="button" name="button" id="button-contactar" class="ml-4">Contactar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- End of hero image -->
 
         <div id="container">
