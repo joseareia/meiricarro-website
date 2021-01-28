@@ -58,3 +58,6 @@
 <!-- Scripts for Bootstrap and Jquery -->
 <script src="/vendor/jquery/jquery.min.js"></script>
 <script src="/vendor/bootstrap/js/bootstrap.js"></script>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+<script src="/resources/js/master.js"></script>

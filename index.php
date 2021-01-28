@@ -5,7 +5,7 @@
         $style = "/resources/css/index.css";
         require "partials/header.php";
     ?>
-    <body>
+    <body data-barba="wrapper">
         <!-- Begin of navigation -->
         <div class="navbar">
             <div class="container">
@@ -44,7 +44,7 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-md-6 ml-5">
-                        <h1 class="text-white font-weight-bold" id="hero-title">Conheça a Meiricarro,<br>o seu reparador citroën de Leiria.</h1>
+                        <h1 class="text-white font-weight-bold" id="hero-title">Conheça a Meiricarro,<br>o seu reparador citroën de Pombal.</h1>
                         <p class="text-white pt-3 pb-3" id="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur.</p>
                         <div class="button-div">
                             <a href="#info-empresa" class="text-decoration-none">
@@ -159,6 +159,5 @@
     <?php
         require "partials/footer.php";
     ?>
-    <script src="/resources/js/index.js"></script>
     </body>
 </html>
