@@ -2,7 +2,6 @@
 <html lang="pt" dir="ltr">
     <?php
         $title = "Viaturas";
-        $style = "/resources/css/vehicles.css";
         require "partials/header.php";
     ?>
     <body>

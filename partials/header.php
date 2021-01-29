@@ -22,5 +22,4 @@
     <!-- CSS Links and Bootstrap Core -->
     <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/resources/css/master.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="<?= $style ?>">
 </head>

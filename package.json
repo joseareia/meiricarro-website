@@ -1,0 +1,26 @@
+{
+  "name": "meiricarro",
+  "version": "1.0.0",
+  "description": "meiricarro-website",
+  "main": "index.js",
+  "scripts": {
+    "test": "meiricarro-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseareia/meiricarro-website.git"
+  },
+  "keywords": [
+    "meiricarro-webiste"
+  ],
+  "author": "José Areia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseareia/meiricarro-website/issues"
+  },
+  "homepage": "https://github.com/joseareia/meiricarro-website#readme",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.6.0"
+  }
+}

@@ -60,4 +60,5 @@
 <script src="/vendor/bootstrap/js/bootstrap.js"></script>
 <script src="https://unpkg.com/@barba/core"></script>
 <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
-<script src="/resources/js/master.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+<script defer src="/resources/js/master.js"></script>
