@@ -11,14 +11,14 @@ $(document).ready(function() {
     function pageTransition() {
         var tl = gsap.timeline();
         tl.to(".loading-screen", {
-            duration: 1.2,
+            duration: 1,
             width: "100%",
             left: "0%",
             ease: "Expo.easeInOut"
         });
 
         tl.to(".loading-screen", {
-            duration: 1,
+            duration: 0.8,
             width: "100%",
             left: "100%",
             ease: "Expo.easeInOut",
@@ -33,7 +33,7 @@ $(document).ready(function() {
     function contentAnimation() {
         var tl = gsap.timeline();
         tl.from(".animate-this", {
-            duration: 1,
+            duration: 0.8,
             y: 30,
             opacity: 0,
             stagger: 0.4,
@@ -48,6 +48,24 @@ $(document).ready(function() {
             width: "100%",
             left: "0%",
             ease: "Expo.easeInOut"
+        });
+
+        tl.set(".p-load-first", {
+            opacity: 0,
+            y: 60
+        });
+
+        tl.to(".p-load-first", {
+            opacity: 1,
+            y: 0,
+            ease: "power3.out"
+        });
+
+        tl.to(".p-load-first", {
+            delay: 0.8,
+            opacity: 0,
+            y: -60,
+            ease: "power3.out"
         });
 
         tl.to(".home .loading-screen-first", {
@@ -85,7 +103,7 @@ $(document).ready(function() {
 
                 async once(data) {
                     enterHome();
-                }
+                },
             }]
         });
     });

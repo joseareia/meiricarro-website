@@ -6,7 +6,9 @@
     ?>
     <body data-barba="wrapper" class="home">
         <div class="load-container-first">
-            <div class="loading-screen-first"></div>
+            <div class="d-flex align-items-center justify-content-center loading-screen-first">
+                <p class="p-load-first">Seja bem-vindo à Meiricarro.</p>
+            </div>
         </div>
 
         <div class="load-container">

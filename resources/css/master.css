@@ -138,6 +138,14 @@ html, body {
     pointer-events: none;
 }
 
+.load-container-first p {
+    opacity: 0;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
 .hero-image-index {
     height: 100vh;
     position: relative;
@@ -458,6 +466,13 @@ html, body {
 #image3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../media/services3.jpg");
 }
+
+/* --------- End of Services Style --------- */
+
+
+
+/* --------- Begin of Services Style --------- */
+
 
 /* --------- End of Services Style --------- */
 
