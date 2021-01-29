@@ -1,5 +1,4 @@
 /* --------- Begin of General Style --------- */
-
 * {
     margin: 0;
     padding: 0;
@@ -111,12 +110,10 @@ html, body {
     opacity: 1;
     border-bottom: 1px solid white;
 }
-
 /* --------- End of General Style --------- */
 
 
 /* --------- Begin of Index Style --------- */
-
 .loading-screen-first {
     position: relative;
     padding-left: 0;
@@ -349,12 +346,10 @@ html, body {
     color: #b48f6d;
     background-position: 0;
 }
-
 /* --------- End of Index Style --------- */
 
 
 /* --------- Begin of Services Style --------- */
-
 .hero-image-services {
     height: 80vh;
     position: relative;
@@ -466,16 +461,156 @@ html, body {
 #image3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../media/services3.jpg");
 }
-
 /* --------- End of Services Style --------- */
 
 
+/* --------- Begin of Vehicles Style --------- */
+.hero-image-vehicles {
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../media/bg-vehicles.png");
+}
 
-/* --------- Begin of Services Style --------- */
+.hero-image-vehicles #hero-title {
+    font-size: 2.5rem;
+    width: 110%;
+}
+
+.hero-image-vehicles #hero-paragraph {
+    line-height: 1.8;
+    font-family: Poppins;
+    font-size: .8rem;
+}
+
+#button-saber, #button-contactar {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#button-saber {
+    padding: 14px 35px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+#button-contactar {
+    background-size: 220%;
+    background-position: 100%;
+    background-image: linear-gradient(110deg, #fff 0%, #fff 50%, transparent 50%, transparent 100%);
+    padding: 13px 34px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+#button-contactar:hover {
+    color: black;
+    background-position: 0;
+}
+/* --------- End of Vehicles Style --------- */
 
 
-/* --------- End of Services Style --------- */
+/* --------- Begin of Contacts Style --------- */
+.hero-image-contacts {
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../media/bg-contacts.png");
+}
 
+.hero-image-contacts #hero-title {
+    font-size: 2.5rem;
+    width: 110%;
+}
+
+.hero-image-contacts #hero-paragraph {
+    line-height: 1.8;
+    font-family: Poppins;
+    font-size: .8rem;
+}
+
+#button-saber {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 14px 35px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+/* --------- End of Contacts Style --------- */
+
+
+/* --------- Begin of Blog Style --------- */
+.hero-image-blog {
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../media/bg-blog.png");
+}
+
+.hero-image-blog #hero-title {
+    font-size: 2.5rem;
+    width: 110%;
+}
+
+.hero-image-blog #hero-paragraph {
+    line-height: 1.8;
+    font-family: Poppins;
+    font-size: .8rem;
+}
+
+#button-saber, #button-contactar {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#button-saber {
+    padding: 14px 35px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+#button-contactar {
+    background-size: 220%;
+    background-position: 100%;
+    background-image: linear-gradient(110deg, #fff 0%, #fff 50%, transparent 50%, transparent 100%);
+    padding: 13px 34px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+#button-contactar:hover {
+    color: black;
+    background-position: 0;
+}
+/* --------- End of Blog Style --------- */
+
+
+/* --------- Begin of Footer Style --------- */
 footer {
     clear: both;
     height: 320px;
@@ -547,3 +682,4 @@ footer .footer {
 footer .footer #footer-languages {
     margin-right: 30px;
 }
+/* --------- End of Footer Style --------- */

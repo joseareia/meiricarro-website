@@ -7,7 +7,7 @@
     <body data-barba="wrapper" class="home">
         <div class="load-container-first">
             <div class="d-flex align-items-center justify-content-center loading-screen-first">
-                <p class="p-load-first">Seja bem-vindo à Meiricarro.</p>
+                <p class="p-load-first"><span style="-webkit-text-stroke: 1px black; -webkit-text-fill-color: white;">Seja bem-vindo à</span> Meiricarro.</p>
             </div>
         </div>
 
@@ -20,7 +20,9 @@
                 <div class="container">
                     <div class="row p-3">
                         <div class="col">
-                            <img src="/resources/media/logotipo.png" alt="Logótipo - Meiricarro">
+                            <a href="/">
+                                <img src="/resources/media/logotipo.png" alt="Logótipo - Meiricarro">
+                            </a>
                         </div>
                         <div class="col d-flex flex-row-reverse align-items-center">
                             <div class="nav-itens">

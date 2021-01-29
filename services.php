@@ -15,8 +15,9 @@
                 <div class="container">
                     <div class="row p-3">
                         <div class="col">
-                            <img src="/resources/media/logotipo.png" alt="Logótipo - Meiricarro">
-                        </div>
+                            <a href="/">
+                                <img src="/resources/media/logotipo.png" alt="Logótipo - Meiricarro">
+                            </a>                        </div>
                         <div class="col d-flex flex-row-reverse align-items-center">
                             <div class="nav-itens">
                                 <ul>

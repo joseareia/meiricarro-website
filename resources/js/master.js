@@ -36,8 +36,7 @@ $(document).ready(function() {
             duration: 0.8,
             y: 30,
             opacity: 0,
-            stagger: 0.4,
-            delay: 0.2
+            delay: 0.3
         });
     }
 
@@ -81,10 +80,33 @@ $(document).ready(function() {
         });
     }
 
-    $(function() {
-        barba.init({
-            sync: true,
-            transitions: [{
+    function contentAnimationHome() {
+        var tl = gsap.timeline();
+        tl.from(".home .animate-this", {
+            delay: 3,
+            duration: 0.8,
+            y: 30,
+            opacity: 0,
+        });
+    }
+
+    function test() {
+        var tl = gsap.timeline();
+        tl.from(".home", {
+            delay: 3,
+            duration: 0.8,
+            y: 30,
+            opacity: 0,
+        });
+    }
+
+    barba.hooks.enter(() => {
+        window.scrollTo(0, 0);
+    });
+
+    barba.init({
+        sync: true,
+        transitions: [{
                 name: 'page-transition',
                 async leave(data) {
                     const done = this.async();
@@ -95,16 +117,25 @@ $(document).ready(function() {
 
                 async enter(data) {
                     contentAnimation();
+                }
+            },
+            {
+                name: 'self',
+                enter(data) {
+                    gsap.to(window, {
+                        duration: 1,
+                        scrollTo: "#main",
+                        ease: "Expo.easeInOut"
+                    });
                 },
-
-                async once(data) {
-                    contentAnimation();
-                },
-
+            },
+            {
+                name: 'first-enter-website',
                 async once(data) {
                     enterHome();
-                },
-            }]
-        });
+                    contentAnimationHome();
+                }
+            }
+        ]
     });
 });
